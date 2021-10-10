@@ -9,6 +9,8 @@ public class hidewithheadbrowser1
 {
 	public static void main(String[] args)
 	{
+
+
 		//Hide with head browser and launch site
 		WebDriverManager.chromedriver().setup();
 		System.setProperty("webdriver.chrome.silentOutput","true");

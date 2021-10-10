@@ -11,7 +11,7 @@ public class Test276
 		Sample2 t2=new Sample2();
 		t1.start(); //Sample1 class run() can start execution
 		t2.start(); //Sample2 class run() can start execution
-		System.setProperty("webdriver.chrome.driver","E:\\batch248\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\vallu\\drivers\\chromedriver.exe");
 		RemoteWebDriver driver=new ChromeDriver();
 		driver.get("http://www.gmail.com");
 	}

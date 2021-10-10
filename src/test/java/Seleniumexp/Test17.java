@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import com.sun.glass.events.KeyEvent;
+//import com.sun.glass.events.KeyEvent;
 
 public class Test17 
 {
@@ -26,10 +26,10 @@ public class Test17
 		Runtime.getRuntime().exec("notepad.exe");
 		Thread.sleep(5000);
 		Robot r=new Robot();
-		r.keyPress(KeyEvent.VK_CONTROL);
+		/*r.keyPress(KeyEvent.VK_CONTROL);
 		r.keyPress(KeyEvent.VK_V);
 		r.keyRelease(KeyEvent.VK_V);
-		r.keyRelease(KeyEvent.VK_CONTROL);
+		r.keyRelease(KeyEvent.VK_CONTROL);*/
 		
 		
 

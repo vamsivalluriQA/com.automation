@@ -8,7 +8,7 @@ public class Test277
 {
 	public static void main(String[] args) throws Exception
 	{
-		System.setProperty("webdriver.chrome.driver","E:\\batch248\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\vallu\\drivers\\chromedriver.exe");
 		RemoteWebDriver driver=new ChromeDriver();
 		driver.get("http://www.gmail.com");
 		Thread.sleep(5000);

@@ -7,7 +7,7 @@ public class Test154
 	public static void main(String[] args)
 	{
 		//Open browser by creating driver object
-		System.setProperty("webdriver.chrome.driver","E:\\batch248\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\vallu\\drivers\\chromedriver.exe");
 		ChromeDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		//create object to Sample4
@@ -15,7 +15,7 @@ public class Test154
 		obj.launch("http://www.google.co.in");
 		String t=obj.title();
 		System.out.println(t);
-		obj.closeSite();
+		//obj.closeSite();
 	}
 }
 

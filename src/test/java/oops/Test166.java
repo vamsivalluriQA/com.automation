@@ -12,7 +12,7 @@ public class Test166
 	public static void main(String[] args) 
 	{
 		//Open browser and avoid browser driver logs
-		System.setProperty("webdriver.chrome.driver","E:\\batch248\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\vallu\\drivers\\chromedriver.exe");
 		System.setProperty("webdriver.chrome.silentOutput","true");
 		ChromeDriver driver=new ChromeDriver();
 		//Launch site

@@ -13,7 +13,7 @@ public class Test275
 		{
 			public void run()
 			{
-				System.setProperty("webdriver.chrome.driver","E:\\batch248\\chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver","C:\\Users\\vallu\\drivers\\chromedriver.exe");
 				RemoteWebDriver driver=new ChromeDriver();
 				driver.get("http://www.magnitia.com");
 			}

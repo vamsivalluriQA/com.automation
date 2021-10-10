@@ -8,7 +8,7 @@ public class Test156
 	public static void main(String[] args) throws Exception
 	{
 		//Open browser 
-		System.setProperty("webdriver.chrome.driver","E:\\batch248\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\vallu\\drivers\\chromedriver.exe");
 		ChromeDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		//Create object to Reusable class
