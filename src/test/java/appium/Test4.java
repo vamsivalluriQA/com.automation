@@ -1,4 +1,4 @@
-package tests;
+package appium;
 
 import java.net.URL;
 
